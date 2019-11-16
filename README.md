@@ -6,7 +6,7 @@ Check it out - https://mysterious-basin-79505.herokuapp.com/
 node.js is used for the backend and ejs for the frontend.
 
 
-# How it works:
+# How it works  
 When the submit button is clicked, a post request is sent to the '/table' route, which checks if the number requested is greater than 0 and then calls the getData function.
 
 getData is an async function that fetches the data from the url provided and converts it into text. A regex match is done to find the words in the text received and is stored in matchedWords array. For each word in matchedWords, we add that word to an object called wordList.
@@ -25,7 +25,7 @@ EJS is used for front end, it allows us to use javascript to generate HTML marku
 There is a simple for loop used to add elements to the table.
 
 
-# Packages used -
+# Packages used  
 ExpressJS  
 EJS  
 node-fetch  
