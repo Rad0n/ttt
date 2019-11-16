@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    font-family: arial;
+}
+
+.heading {
+    text-align:center;
+    color:  white;
+   
+}
+
+.item{
+    text-align:center;
+    color:white
+     
+}
+
+.inputBox{
+    text-align: center;
+}
+
+.inp{
+    width:80vw;
+    height:4vh;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #333333;
+    padding: .5vh;
+    border: 2px solid white;
+}
+
+.btn {
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.5vw;
+    background-color: #333333;
+    border: 2px solid white;
+    color: white;
+}
+
+table, th, td, tr {
+
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: 0px auto;      
+    padding:.5vh 5vh;      
+}
+
+h1 {
+
+    font-family: 'Bungee Shade', cursive;
+    font-size: 10vh;
+}

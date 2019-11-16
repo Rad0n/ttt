@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>
+      TTT Data
+  </title>
+
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="todostyle.css">
+
+ 
+
+</head>
+
+<body>
+
+  <div class="heading">
+      <h1>
+           TTT Data
+      </h1>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="inputBox">
+    <form method="post" action="/table">
+        <input type="text" class="inp" placeholder="Number of words" name='itemsRequested'>
+        <br>
+        <div style="padding-top: 3vh">
+          <input type="submit" class = "btn"value="Submit">
+          <input type="submit" name="reset" value="Reset" formaction="/reset" class = "btn">
+        </div>
+        
+    </form>
+  </div>
+
+  <div style="height: 10vh"></div>
+
+
+  <% if(show) { %>
+    <div style="text-align: center; width: 100%; color: white; align:">
+
+      <table>
+        <tr>
+          <th>
+            Index
+          </th>
+          <th>
+            Word
+          </th>
+          <th>
+            Frequency
+          </th>
+        </tr>
+        <% let i=1; %>
+        <% for(let i_list = 0; i_list < list.length; i_list++) { %>
+          <tr>
+            <td>
+              <%= i %>
+              <% i+=1 %>
+            </td>
+            <td>
+              <%= list[i_list][0] %>
+            </td>
+            <td>
+              <%= list[i_list][1] %>
+            </td>
+          </tr>
+        <% } %>
+      </table>
+
+    </div>
+  <% } %>
+
+</body>
+
+</html>
