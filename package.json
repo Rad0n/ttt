@@ -1,0 +1,26 @@
+{
+  "name": "ttt",
+  "version": "1.0.0",
+  "description": "TTT internship test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rad0n/ttt.git"
+  },
+  "author": "Pradyumna Mahajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rad0n/ttt/issues"
+  },
+  "homepage": "https://github.com/Rad0n/ttt#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": "10.16.3"
+  }
+}
