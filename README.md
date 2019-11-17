@@ -39,6 +39,7 @@ Main Page
 Words Requested  
 ![10 words requested](https://i.imgur.com/79bN5qg.png)
   
-Resizing  
-![Resizing GIF](https://im2.ezgif.com/tmp/ezgif-2-f3c6eb6d6f5d.gif)
+Resizing   
+![Resizing GIF](https://i.imgur.com/yzo47cM.gifv)
+
 
