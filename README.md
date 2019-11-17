@@ -40,6 +40,6 @@ Words Requested
 ![10 words requested](https://i.imgur.com/79bN5qg.png)
   
 Resizing   
-![Resizing GIF](https://i.imgur.com/yzo47cM.gifv)
+![Resizing GIF](https://i.imgur.com/yzo47cM.gif)
 
 
